@@ -1,0 +1,45 @@
+.card-container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card{
+    width: 180px;
+    background-color: transparent;
+    
+}
+
+.card-img-top img{ 
+    width: 100%;
+    border-radius: 5%;
+}
+
+.card .card-img-top,
+.card .card-img-overlay{
+    transform: scale(1);
+    transition: .3s ease-in-out;
+    
+}
+
+.card:hover .card-img-top,
+.card:hover .card-img-overlay{
+    transform: scale(1.02);
+    overflow: hidden;
+}
+
+.stretched-link,.stretched-link:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.card .card-img-overlay{
+    visibility: hidden;
+    box-shadow: 0px 0px 7000px black inset;
+
+}
+
+.card:hover .card-img-overlay{
+    visibility:visible;
+    
+}
+

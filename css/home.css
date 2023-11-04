@@ -1,0 +1,35 @@
+
+.card{     
+    width:250px;
+    height:250px;
+}
+
+div>img{
+    height: 150px;
+    width: 150px;
+}
+
+.card{     
+    background-color: rgba(245, 245, 245, 0.567);
+    margin:10px;
+}
+
+.card:hover{
+    background-color: #098600;
+    color: black;
+    border: solid 1px white;
+}
+
+.banner-container{
+    background-image: url(https://wallpaperaccess.com/full/3658607.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    padding: auto;
+    box-shadow: 0 0 0 7000px inset rgba(0, 0, 0, 0.57), 0px -96px 86px inset black;
+}
+
+
+
